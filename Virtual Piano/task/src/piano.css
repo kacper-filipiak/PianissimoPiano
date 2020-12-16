@@ -1,0 +1,64 @@
+.white-keys kbd{
+    margin-left: 0;
+    padding: 0;
+    display: inline-block;
+    background-color: white;
+    height: 300px;
+    width: 50px;
+    text-align: center;
+    border: solid dimgrey;
+    border-width: 0 0 4px 4px;
+    position: relative;
+    z-index: 0;
+
+}
+div{
+    position: absolute;
+}
+.innerText{
+    align-self: center;
+    position: relative;
+    bottom: -50%;
+}
+.black-keys kbd{
+    margin-left: 0;
+    padding: 0;
+    display: inline-block;
+    background-color: black;
+    height: 100px;
+    width: 50px;
+    text-align: center;
+    color: whitesmoke;
+
+
+    border: solid dimgrey;
+    border-width: 0 0 4px 4px;
+    position: relative;
+    z-index: 1;
+}
+
+#E{
+    left: 25px;
+}
+#T{
+    left: 100px;
+}
+#Y{
+    left: 100px;
+}
+#U{
+    left: 100px;
+}
+#W{
+    left: 25px;
+}
+
+.container{
+    margin: auto;
+    width: 30%;
+    padding: 10%;
+}
+body{
+    background-color: #E0B02F;
+
+}
